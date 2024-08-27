@@ -119,7 +119,7 @@ svg {
   margin-inline: 1.5rem;
 }
 .grid2 {
-  /* display: grid; */
+  display: grid;
   gap: 1.5rem;
 }
 
@@ -149,7 +149,7 @@ svg {
   margin-bottom: .25rem;
 }
 
-.section__subtitle span {
+.section__title span {
   color: var(--first-color);
 }
 
@@ -161,7 +161,7 @@ svg {
 .header {
   position: fixed;
   width: 100%;
-  background-color:  #D4D4D4 ;
+  background-color: var(--container-color);
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
